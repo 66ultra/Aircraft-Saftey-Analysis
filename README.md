@@ -1,66 +1,38 @@
-# Aircraft Safety Analysis
+# Aircraft Safety Analysis Overview
 
-**Author**: Noah Meakins
+### Author: Noah Meakins
 
-## Overview
-This in-depth analysis is intended to guide our company's foray into the commercial and private aviation sectors. By identifying historical safety risks and the most common causes of serious accidents, we aim to implement best practices and safety standards that surpass industry norms. This proactive approach to safety and risk analysis will be foundational in establishing our company as a responsible and trustworthy player in the aviation industry.
+#### Introduction
+This project aims to enhance our entry into the aviation sector by focusing on aircraft safety and reliability. By analyzing historical data on aviation accidents, I aim to identify the safest aircraft models for commercial and private use. This initiative underscores our commitment to safety and positions us as a trustworthy industry participant.
 
-***
+#### Business Objective
+As part of our diversification strategy, we're venturing into the aviation industry, focusing on acquiring aircraft for commercial and private use. I seek to identify the safest aircraft models through comprehensive data analysis, drawing insights from historical accident data to inform our purchasing decisions.
 
-## Business Problem
+#### Data Overview
+I analyzed aviation accident data from 1962 to 2023, sourced from the National Transportation Safety Board. This dataset includes details on civil aviation accidents in the U.S. and international waters, providing a solid basis for evaluating aircraft safety across different models and manufacturers. 
 
-My company has decided to expand into new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises. This project uses data cleaning, imputation, analysis, and visualization to generate insights into which models of airplanes can be considered the safest for commercial and private flight. The data utilized this project was provided by Kaggle.com. The dataset from the National Transportation Safety Board includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
+You can take a deeper look at the original dataset here: (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses/data). 
 
-***
+#### Analytical Approach
+My analysis involved thorough data cleaning to remove irrelevant or incomplete records, followed by detailed examination of the data to identify patterns and insights related to aircraft safety. Key variables such as aircraft make, model, engine type, and injury severity were analyzed to assess the historical safety performance of various aircraft models.
 
-## Data
-The data provided for this analysis is from the National Transportation Safety Board which includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters. This will provide enough data to determine what models will be the safest for commercial and private enterprises. It's relevant to our analysis as we aim to understand various aircraft models and the levels of safety associated with them. The dataset consists of individual aircraft accidents, each record detailing the accident. It includes data from incidents in the United States and international waters. Key variables include Country, Location, Make, Model, Number of Engines, Engine Type, Weather Conditions, Injury Severity, and Aircraft Damage. For this analysis, in line with our company's focus on safety and risk assessment, the primary target variable is 'total fatal injuries'. Analyzing this variable will help us assess the severity of accidents and understand the safety challenges inherent in the aviation industry, especially pertinent to commercial and private flight operations.
+#### Key Findings
+My analysis yielded three recommendations that will provide support for the decisions to be made when choosing aircraft. My recommendations are based on quantitative analysis of historical accident data, ensuring they are grounded in empirical evidence.
 
-***
+#### Recommendations
+1. For commercial use, consider aircraft from Embraer, Boeing, and Airbus, which show the lowest fatal injury rates. This can be supported with the following visualization: ![Alt text](<images/Total Fatal Injuries by Aircraft Make.png>)
 
-## Methods
-Our analysis began with a deep data cleansing process, where we refined our dataset by eliminating irrelevant entries and addressing any data quality issues such as missing or inconsistent values. We then constructed a series of visualizations and statistical models to explore correlations and patterns within the data, focusing particularly on factors that could influence aircraft safety. By grouping data by specific categories such as aircraft make and model, engine type, and year of incident, we were able to derive meaningful insights into historical safety performance. The outcomes of these analytical procedures were then made to isolate the top aircraft recommendations based on a balance of safety records and operational efficiency. This informed approach ensures that our final recommendations are data-driven, providing a large foundation for making well-considered decisions regarding aircraft selection.
+2. For private aircraft, Embraer, Raytheon Corporate Jets, and Gulfstream are recommended based on their safety records. This can also be supported by the visualization above. 
 
-***
+3. Prioritize aircraft with three or more engines and those built after 2015 to benefit from the latest safety features and technologies. This can be supported by the two following visualizations below: ![Alt text](<images/Incidents by Engine Type and Number of Engines.png>) ![Alt text](<images/Yearly Trend of Fatal Injuries.png>)
 
-## Results
-Following a comprehensive process of data preparation, cleaning, and analytical modeling, I have identified three robust aircraft models suitable for recommendation. The analysis has distilled a list of prospective aircraft, each with the potential to serve effectively in commercial and private aviation enterprises. The manufacturers represented in the findings are renowned for their commitment to safety and reliability. The highlighted models are designed to accommodate a range of passenger capacities and are capable of traversing medium to long-haul routes efficiently.
+For an interactive dashboard including the mentioned visualizations, please click the following link to be directed to my Tableau Dashboard for this analysis: 
 
-Implementing this model into the business's decision-making process is anticipated to yield positive outcomes. The actionable insights derived from the analysis promise to enhance the strategic selection of aircraft, optimizing the balance between capacity, range, and safety. Nonetheless, it is essential to integrate these findings with a comprehensive risk assessment and to consider them as part of a broader decision framework that includes economic, technical, and regulatory factors.
+#### Limitations and Future Directions
+My analysis, while comprehensive, has limitations, including potential gaps in historical data and the exclusion of some factors that can affect safety outcomes. Future improvements could include real-time data analysis and a broader set of safety metrics to provide more nuanced recommendations.
 
-***
-
-
-## Conclusions
-Through meticulous data preparation, cleansing, and analytical modeling, we have distilled a set of actionable insights and robust aircraft model recommendations tailored to the needs of the business. Our analysis has resulted in several potential models that align with both commercial and private operational requirements, emphasizing safety, reliability, and operational efficiency.
-
-### Recommendations
-
-Based on the findings of our analysis, it is recommended that the business:
-
-Prioritize aircraft models with the lowest historical average of fatal injuries, as these suggest a better safety record.
-Consider the operational context of aircraft usage, including the frequency of flights and the environments in which the aircraft operate, to make informed decisions beyond the data presented.
-Factor in the technological advancements and safety features of newer models, which may not be fully reflected in historical data.
-
-### Limitations
-
-While the analysis provides a data-driven foundation for decision-making, several limitations must be acknowledged:
-
-Historical data may not account for recent improvements in aircraft design and technology that enhance safety.
-The analysis might not fully capture the operational diversity of aircraft usage, which can significantly impact safety outcomes.
-External factors such as regulatory changes and maintenance practices, which play a crucial role in aircraft safety, have not been extensively analyzed.
-
-### Future Improvements
-
-To further refine the recommendations for this business problem and create an up-to-date analysis, the following steps could be utilized in the future:
-
-Incorporate real-time data tracking to capture the latest trends and improvements in aircraft safety and performance.
-Expand the scope of analysis to include a broader range of safety and performance metrics, offering a more comprehensive view of each aircraft model's operational profile.
-
-In essence, while the analysis conducted provides a solid foundation for informed decision-making, it is crucial to approach the recommendations with an understanding of their inherent constraints and the dynamic nature of aviation safety. Continuous improvement in data collection, analysis techniques, and the incorporation of real-time operational data will significantly enhance the robustness of future recommendations.
-
-It is also important to consider that due to the state and quantity of the data provided in the original dataset when choosing Airplane models, the possibility of a new version of the specific model should be considered. This can be resolved when communicating with sales representatives of the manufacturer you choose for each industry. 
-***
+#### Conclusion
+This project provides a data-driven foundation for selecting safe and reliable aircraft for our business ventures in aviation. By continuing to refine our analytical methods and incorporating the latest data, we can ensure our recommendations remain relevant and effective in promoting safety and operational excellence in our aviation activities.
 
 
 ## Repository Structure
