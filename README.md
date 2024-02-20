@@ -26,7 +26,7 @@ My analysis yielded three recommendations that will provide support for the deci
 
 3. Prioritize aircraft with three or more engines and those built after 2015 to benefit from the latest safety features and technologies. This can be supported by the two following visualizations below: ![Incidents by Engine Type and Number of Engines](<images/Incidents by Engine Type and Number of Engines.png>) ![Trend of Fatal Injuries](<images/Yearly Trend of Fatal Injuries.png>)
 
-For an interactive dashboard including the mentioned visualizations, please click the following link to be directed to my Tableau Dashboard for this analysis: 
+For an interactive dashboard including the mentioned visualizations, please click the following link to be directed to my Tableau Dashboard for this analysis: (https://public.tableau.com/views/AircraftSafetyAnalysisDashboard/InteractiveDashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) 
 
 #### Limitations and Future Directions
 My analysis, while comprehensive, has limitations, including potential gaps in historical data and the exclusion of some factors that can affect safety outcomes. Future improvements could include real-time data analysis and a broader set of safety metrics to provide more nuanced recommendations.
