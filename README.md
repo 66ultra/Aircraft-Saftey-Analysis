@@ -20,11 +20,11 @@ My analysis involved thorough data cleaning to remove irrelevant or incomplete r
 My analysis yielded three recommendations that will provide support for the decisions to be made when choosing aircraft. My recommendations are based on quantitative analysis of historical accident data, ensuring they are grounded in empirical evidence.
 
 #### Recommendations
-1. For commercial use, consider aircraft from Embraer, Boeing, and Airbus, which show the lowest fatal injury rates. This can be supported with the following visualization: ![Alt text](<images/Total Fatal Injuries by Aircraft Make.png>)
+1. For commercial use, consider aircraft from Embraer, Boeing, and Airbus, which show the lowest fatal injury rates. This can be supported with the following visualization: ![Bar Chart of Total Fatal Injuries by Aircraft Make](<images/Total Fatal Injuries by Aircraft Make.png>)
 
 2. For private aircraft, Embraer, Raytheon Corporate Jets, and Gulfstream are recommended based on their safety records. This can also be supported by the visualization above. 
 
-3. Prioritize aircraft with three or more engines and those built after 2015 to benefit from the latest safety features and technologies. This can be supported by the two following visualizations below: ![Alt text](<images/Incidents by Engine Type and Number of Engines.png>) ![Alt text](<images/Yearly Trend of Fatal Injuries.png>)
+3. Prioritize aircraft with three or more engines and those built after 2015 to benefit from the latest safety features and technologies. This can be supported by the two following visualizations below: ![Incidents by Engine Type and Number of Engines](<images/Incidents by Engine Type and Number of Engines.png>) ![Trend of Fatal Injuries](<images/Yearly Trend of Fatal Injuries.png>)
 
 For an interactive dashboard including the mentioned visualizations, please click the following link to be directed to my Tableau Dashboard for this analysis: 
 
